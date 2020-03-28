@@ -275,8 +275,24 @@ h1, h2, h3, h4, h5, h6 {
 .gallery__wrapper {
   display: grid;
   grid-template-columns: repeat(12, 8.33%);
-  grid-template-rows: repeat(3, 1fr);
-  grid-auto-flow: dense; }
+  grid-template-rows: repeat(3, 1fr); }
+
+[class*="gallery__item"] {
+  display: inline-block;
+  overflow: hidden;
+  -webkit-transition: all .5s ease-in;
+  -o-transition: all .5s ease-in;
+  -moz-transition: all .5s ease-in;
+  transition: all .5s ease-in; }
+  [class*="gallery__item"] img {
+    width: 100%;
+    height: 100%; }
+  [class*="gallery__item"]:hover {
+    -webkit-transform: scale(1.2);
+       -moz-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+         -o-transform: scale(1.2);
+            transform: scale(1.2); }
 
 .gallery__item-1 {
   grid-column: 1/5; }
