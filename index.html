@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <header class="header">
+    <header class="header" id="header">
         <div class="container">
             <!-- NAVIGATION  -->
             <nav class="header__navigation">
@@ -26,13 +26,13 @@
                 <div class="header__navigation-menue">
                     <ul class="header__navigation-list">
                         <li class="header__navigation-item">
-                            <a href="#">Home</a>
+                            <a href="#header">Home</a>
                         </li>
                         <li class="header__navigation-item">
-                            <a href="#">What We Offer</a>
+                            <a href="#offers">What We Offer</a>
                         </li>
                         <li class="header__navigation-item">
-                            <a href="#">Gallery</a>
+                            <a href="#gallery">Gallery</a>
                         </li>
                         <li class="header__navigation-item">
                             <a href="#">About Us </a>
@@ -73,5 +73,81 @@
             <img src="./img/header/mountain.png" alt="Mountain">
         </div>
     </header>
+
+    <main>
+        <section class="offers" id="offers">
+            <div class="sub-container">
+                <h2 class="offers__title">what we offer</h2>
+                <div class="offers__description">
+                    <p>
+                        Skiing and snowboarding still rank among the undisputed winter sport highlights for all ages and ability levels. The perfectly groomed ski slopes makes a real heaven for skiers and riders. Our professional ski and snowboard instructors can show you all the little details while improving your skiing techniques and riding skills.
+                    </p>
+                </div>
+
+                <div class="offers__type-wrapper">
+                    <div class="offers__type-item">
+                        <div class="offers__type-img">
+                            <img src="./img/offers/item-1.png" alt="Offer image">
+                        </div>
+                        <div class="offers__type-question">new to skiing?</div>
+                        <div class="offers__type-title">private lessons for begginners</div>
+                        <div class="offers__type-btn">
+                            <a href="#">from &#36;250</a>
+                        </div>
+                    </div>
+
+                    <div class="offers__type-item">
+                        <div class="offers__type-img">
+                            <img src="./img/offers/item-2.png" alt="Offer image">
+                        </div>
+                        
+                        <div class="offers__type-question">need a crew?</div>
+                        <div class="offers__type-title">group lessons for beginners</div>
+                        <div class="offers__type-btn">
+                            <a href="#">from &#36;150</a>
+                        </div>
+                    </div>
+
+                    <div class="offers__type-item">
+                        <div class="offers__type-img">
+                            <img src="./img/offers/item-3.png" alt="Offer image">
+                        </div>
+                        <div class="offers__type-question">wanna more?</div>
+                        <div class="offers__type-title">advanced group lessons</div>
+                        <div class="offers__type-btn">
+                            <a href="#">from &#36;450</a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery" id="gallery">
+            <div class="gallery__wrapper">
+                <div class="gallery__item-1">
+                    <img src="./img/gallery/img-01.jpg" alt="Crew picture">
+                </div>
+                <div class="gallery__item-2">
+                    <img src="./img/gallery/img-02.jpg" alt="Crew picture">
+                </div>
+                <div class="gallery__item-3">
+                    <img src="./img/gallery/img-03.jpg" alt="Crew picture">
+                </div>
+                <div class="gallery__item-4">
+                    <img src="./img/gallery/img-04.jpg" alt="Crew picture">
+                </div>
+                <div class="gallery__item-5">
+                    <img src="./img/gallery/img-05.jpg" alt="Crew picture">
+                </div>
+                <div class="gallery__item-6">
+                    <img src="./img/gallery/img-06.jpg" alt="Crew picture">
+                </div>
+                <div class="gallery__item-7">
+                    <img src="./img/gallery/img-07.jpg" alt="Crew picture">
+                </div>
+            </div>
+        </section>
+    </main>
 
 </body>

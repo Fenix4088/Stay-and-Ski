@@ -1,0 +1,72 @@
+.offers {
+    padding: 75px 80px 160px;
+    background-color: #f7f7f7;
+}
+
+.sub-container {
+}
+
+.offers__title {
+    margin-bottom: 10px;
+    text-align: center;
+    @include section-title;
+}
+
+.offers__description {
+    margin: 0 auto;
+    margin-bottom: 60px;
+    width: 74%;
+    max-width: 934px;
+}
+
+.offers__description p {
+    color: rgb(86, 86, 86);
+    line-height: 1.778;
+    text-align: center;
+}
+
+.offers__type-wrapper {
+    display: flex;
+    justify-content: space-around;
+    text-transform: uppercase;
+    align-items: center;
+}
+
+.offers__type-item {
+    width: 18.25%;
+    max-width: 230px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.offers__type-img {
+    min-height: 184px;
+    margin-bottom: 35px;
+    display: block;
+}
+
+.offers__type-question {
+    margin-bottom: 12px;
+    font-size: 14px;
+    font-family: "Muli";
+    color: rgb(86, 86, 86);  
+}
+
+.offers__type-title {
+    margin-bottom: 25px;
+    font-size: 24px;
+    font-family: "Catamaran";
+    color: rgb(51, 51, 51);
+    font-weight: 900;
+    line-height: 1.2;
+    text-align: center;
+      
+}
+
+.offers__type-btn a{
+    display: block;
+    @include btn-orange-small;
+    color: #fff;
+
+}
