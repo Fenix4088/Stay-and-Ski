@@ -1,0 +1,13 @@
+// BUTTONS 
+
+@mixin btn-orange {
+    padding: 20px 45px;
+    font-size: 18px;
+    border-radius: 6px;
+    font-family: "Catamaran";
+    background-color: $orange;
+    color: rgb(254, 254, 254);
+    text-transform: uppercase;
+}
+
+  

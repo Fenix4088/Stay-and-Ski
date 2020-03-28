@@ -1,0 +1,92 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+*:focus {
+    outline: none;
+    border: 1px dotted $orange-dark;
+}
+
+*::selection {
+    background-color: $orange-dark;
+}
+
+html, body {
+    height: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Muli', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #525252;
+}
+
+ul, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+button, input {
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+textarea {
+    resize: none;
+}
+
+header, section {
+    margin: 0 auto;
+    max-width: 1920px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 900;
+    font-style: black;
+}
+
+// COMMON STYLES 
+
+// font-family: 'Muli', sans-serif;
+// font-family: 'Catamaran', sans-serif;
+
+.container {
+    border: 1px solid red;
+    margin: 0 auto;
+    max-width: 1680px;
+}
+
+.sub-container {
+    border: 1px solid blue;
+    margin: 0 auto;
+    max-width: 1260px;
+}
+
+  
