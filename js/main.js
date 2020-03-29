@@ -158,5 +158,11 @@ function documentReady() {
     return item;
   }
 
-}
+};
 // /SNOW ANIMATION 
+
+  AOS.init({
+    offset: 200,
+    duration: 600,
+    easing: 'ease-in-sine',
+  });

@@ -1,0 +1,56 @@
+.school-desc {
+    padding: 200px 290px;
+    background-image: url(../img/school-desc/school-desc-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.school-desc__wrapper {
+    width: 65.39%;
+}
+
+.school-desc__title {
+    margin-bottom: 38px;
+    @include section-title;
+}
+
+.school-desc__text {
+    margin-bottom: 66px;
+
+    p {
+        margin-bottom: 20px;
+        color: rgb(43, 43, 43);
+        line-height: 1.778;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
+.school-desc__info {
+    display: flex;
+
+}
+
+.school-desc__info-item {
+    margin-right: 90px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.school-desc__info-statistic {
+    font-size: 64px;
+    font-family: "Catamaran";
+    font-weight: 800;
+    color: $orange;
+    align-self: start;
+}
+
+.school-desc__info-name {
+    font-size: 20px;
+    font-family: "Catamaran";
+    font-weight: 600;
+    text-transform: uppercase;
+}

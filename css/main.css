@@ -343,16 +343,12 @@ h1, h2, h3, h4, h5, h6 {
        -o-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   font-size: 30px;
-  font-weight: 700;
+  font-weight: 500;
   z-index: 4;
-  -webkit-transition: all .2s ease-out;
-  -o-transition: all .2s ease-out;
-  -moz-transition: all .2s ease-out;
-  transition: all .2s ease-out;
-  -webkit-transition-delay: .3s;
-     -moz-transition-delay: .3s;
-       -o-transition-delay: .3s;
-          transition-delay: .3s; }
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  transition: all .5s ease; }
   .gallery__btn a {
     color: #fff; }
   .gallery__btn::before {
@@ -380,11 +376,9 @@ h1, h2, h3, h4, h5, h6 {
     -moz-transition: all .7s ease;
     transition: all .7s ease; }
   .gallery__btn:hover {
-    -webkit-transform: translate(-50%, -50%) rotate(360deg);
-       -moz-transform: translate(-50%, -50%) rotate(360deg);
-        -ms-transform: translate(-50%, -50%) rotate(360deg);
-         -o-transform: translate(-50%, -50%) rotate(360deg);
-            transform: translate(-50%, -50%) rotate(360deg); }
+    -webkit-transform: translate(-50%, -50%) rotateY(360deg);
+       -moz-transform: translate(-50%, -50%) rotateY(360deg);
+            transform: translate(-50%, -50%) rotateY(360deg); }
 
 .gallery__item-1 {
   grid-column: 1/5; }
@@ -411,5 +405,131 @@ h1, h2, h3, h4, h5, h6 {
 .gallery__item-7 {
   grid-column: 9/13;
   grid-row: 3/4; }
+
+.crew {
+  padding: 140px 0 150px;
+  background-color: #f7f7f7; }
+
+.crew__title {
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 60px;
+  font-family: "Catamaran";
+  text-transform: uppercase;
+  color: #333333; }
+
+.crew__wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+     -moz-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.crew__wrapper-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: column nowrap;
+     -moz-box-orient: vertical;
+     -moz-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase; }
+
+.crew__item-img {
+  margin-bottom: 25px; }
+
+.crew__member-post {
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #565656; }
+
+.crew__member-name {
+  font-size: 24px;
+  font-weight: 900;
+  font-family: "Catamaran";
+  color: #333333; }
+
+.school-desc {
+  padding: 200px 290px;
+  background-image: url(../img/school-desc/school-desc-bg.jpg);
+  background-repeat: no-repeat;
+  -moz-background-size: cover;
+       background-size: cover; }
+
+.school-desc__wrapper {
+  width: 65.39%; }
+
+.school-desc__title {
+  margin-bottom: 38px;
+  font-size: 60px;
+  font-family: "Catamaran";
+  text-transform: uppercase;
+  color: #333333; }
+
+.school-desc__text {
+  margin-bottom: 66px; }
+  .school-desc__text p {
+    margin-bottom: 20px;
+    color: #2b2b2b;
+    line-height: 1.778; }
+    .school-desc__text p:last-child {
+      margin-bottom: 0; }
+
+.school-desc__info {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.school-desc__info-item {
+  margin-right: 90px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: column nowrap;
+     -moz-box-orient: vertical;
+     -moz-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.school-desc__info-statistic {
+  font-size: 64px;
+  font-family: "Catamaran";
+  font-weight: 800;
+  color: #ff660d;
+  -webkit-align-self: start;
+      -ms-flex-item-align: start;
+          align-self: start; }
+
+.school-desc__info-name {
+  font-size: 20px;
+  font-family: "Catamaran";
+  font-weight: 600;
+  text-transform: uppercase; }
 
 /*# sourceMappingURL=main.css.map */

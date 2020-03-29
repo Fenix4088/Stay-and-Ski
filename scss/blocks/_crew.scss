@@ -1,0 +1,35 @@
+.crew {
+    padding: 140px 0 150px;
+    background-color: #f7f7f7;
+}
+.crew__title {
+    margin-bottom: 50px;
+    text-align: center;
+    @include section-title;
+}
+.crew__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.crew__wrapper-item {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    text-transform: uppercase;
+
+}
+.crew__item-img {
+    margin-bottom: 25px;
+}
+.crew__member-post {
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: rgb(86, 86, 86);
+}
+.crew__member-name {
+    font-size: 24px;
+    font-weight: 900;
+    font-family: "Catamaran";
+    color: rgb(51, 51, 51);
+
+}

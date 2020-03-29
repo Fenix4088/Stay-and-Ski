@@ -67,10 +67,9 @@
     background-color: rgba(10, 10, 10, 0.3);
     transform: translate(-50%, -50%);
     font-size: 30px;
-    font-weight: 700;
+    font-weight: 500;
     z-index: 4;
-    transition: all .2s ease-out;
-    transition-delay: .3s;
+    transition: all .5s ease;
 
     a {
         color: #fff;
@@ -100,7 +99,7 @@
     }
 
     &:hover {
-        transform: translate(-50%, -50%) rotate(360deg);
+        transform: translate(-50%, -50%) rotateY(360deg);
     }
 }
 
