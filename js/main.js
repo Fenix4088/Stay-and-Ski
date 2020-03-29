@@ -161,8 +161,18 @@ function documentReady() {
 };
 // /SNOW ANIMATION 
 
+// Animation 
   AOS.init({
     offset: 200,
     duration: 600,
     easing: 'ease-in-sine',
+  });
+
+  // Owl Carousle 
+  $(document).ready(function(){
+    $(".owl-carousel").owlCarousel({
+      loop: true,
+      items: 1,
+      dotsEach: true
+    });
   });

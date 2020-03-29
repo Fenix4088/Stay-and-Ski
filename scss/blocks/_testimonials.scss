@@ -1,0 +1,69 @@
+.testimonials {
+    padding: 140px 300px;
+    background-color: #f7f7f7;
+}
+
+.testimonials__title {
+    margin-bottom: 35px;
+    text-align: center;
+    @include section-title;
+}
+
+.testimonials__owl {
+    position: relative;
+}
+
+.testimonials__wrapper {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.testimonials__img {
+    margin-bottom: 20px;
+    width: 145px;
+    height: 145px;
+}
+
+.testimonials__img img{
+    width: 145px;
+    height: 145px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+
+.testimonials__name {
+    margin-bottom: 30px;
+    font-family: "Catamaran";
+    font-weight: 900;
+    color: rgb(51, 51, 51);
+    text-transform: uppercase;
+}
+
+.testimonials__message {
+    width: 66.19%;
+    line-height: 1.5;
+    text-align: center;
+    color: rgb(86, 86, 86);
+    font-weight: 300;
+}
+
+.testimonial__owl-quote {
+    position: absolute;
+    top: 37%;
+}
+
+.testimonial__owl-quote--left {
+    left: 35%;
+}
+
+.testimonial__owl-quote--right {
+    right: 35%;
+}
+
+
+// PAGINATION STYLE 
+.owl-theme .owl-dots .owl-dot.active span{
+    background-color: $orange !important;
+}

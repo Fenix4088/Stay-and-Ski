@@ -532,4 +532,81 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   text-transform: uppercase; }
 
+.testimonials {
+  padding: 140px 300px;
+  background-color: #f7f7f7; }
+
+.testimonials__title {
+  margin-bottom: 35px;
+  text-align: center;
+  font-size: 60px;
+  font-family: "Catamaran";
+  text-transform: uppercase;
+  color: #333333; }
+
+.testimonials__owl {
+  position: relative; }
+
+.testimonials__wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: column nowrap;
+     -moz-box-orient: vertical;
+     -moz-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.testimonials__img {
+  margin-bottom: 20px;
+  width: 145px;
+  height: 145px; }
+
+.testimonials__img img {
+  width: 145px;
+  height: 145px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+          border-radius: 50%; }
+
+.testimonials__name {
+  margin-bottom: 30px;
+  font-family: "Catamaran";
+  font-weight: 900;
+  color: #333333;
+  text-transform: uppercase; }
+
+.testimonials__message {
+  width: 66.19%;
+  line-height: 1.5;
+  text-align: center;
+  color: #565656;
+  font-weight: 300; }
+
+.testimonial__owl-quote {
+  position: absolute;
+  top: 37%; }
+
+.testimonial__owl-quote--left {
+  left: 35%; }
+
+.testimonial__owl-quote--right {
+  right: 35%; }
+
+.owl-theme .owl-dots .owl-dot.active span {
+  background-color: #ff660d !important; }
+
 /*# sourceMappingURL=main.css.map */
