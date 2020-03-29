@@ -275,7 +275,7 @@ h1, h2, h3, h4, h5, h6 {
 .gallery__wrapper {
   display: grid;
   grid-template-columns: repeat(12, 8.33%);
-  grid-template-rows: repeat(3, 33vh); }
+  grid-template-rows: repeat(3, 1fr); }
 
 [class*="gallery__item"] {
   display: inline-block;

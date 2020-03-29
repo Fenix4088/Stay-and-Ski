@@ -1,7 +1,7 @@
 .gallery__wrapper {
     display: grid;
     grid-template-columns: repeat(12, 8.33%);
-    grid-template-rows: repeat(3, 33vh);
+    grid-template-rows: repeat(3, 1fr);
 
 }
 
@@ -37,12 +37,6 @@
         border-radius: 50%;
         transform: translate(-50%, -50%) rotate(180deg);
     }
-
-    // &:hover .gallery__btn::before,
-    // &:hover .gallery__btn::after {
-    //     width: 100%;
-    //     height: 5px;
-    // }
 
     &:hover .gallery__btn::before {
         left: 0;
