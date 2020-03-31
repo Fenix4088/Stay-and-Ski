@@ -1,7 +1,8 @@
 // BUTTONS 
 
 @mixin btn-orange {
-    padding: 20px 45px;
+    padding: 10px 35px;
+    display: inline-block;
     font-size: 18px;
     border-radius: 6px;
     font-family: "Catamaran";
@@ -14,11 +15,23 @@
         background-color: rgb(254, 254, 254);
         color: $orange;
     }
+
+    @media (min-width: 768px) {
+        padding: 15px 40px;
+        
+    }
+    
+    @media (min-width: 1200px) {
+        padding: 20px 45px;
+    
+    }
+
 }
 
 @mixin btn-orange-small {
-    padding: 17px 22px;
-    font-size: 18px;
+    display: inline-block;
+    padding: 12px 17px;
+    font-size: 14px;
     border-radius: 6px;
     font-family: "Catamaran";
     background-color: $orange;
@@ -29,14 +42,30 @@
     &:hover {
         background-color: rgba(30, 76, 226, 0.637);
     }
+   
+    @media (min-width: 1200px) {
+        padding: 17px 22px;
+        font-size: 18px;
+    
+    }
 }
 
 // TITLES 
 
 @mixin section-title {
-    font-size: 60px;
+    font-size: 25px;
     font-family: "Catamaran";
     text-transform: uppercase;
     color: rgb(51, 51, 51);
+
+    @media (min-width: 768px) {
+        font-size: 40px;
+
+    }
+    
+    @media (min-width: 1200px) {
+        font-size: 60px;
+    
+    }
 }
 

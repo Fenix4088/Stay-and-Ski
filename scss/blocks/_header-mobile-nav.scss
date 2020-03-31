@@ -1,0 +1,59 @@
+.header__burger-wrapper {
+
+}
+
+.header__burger-lbl {
+}
+
+.header__burger-checkbox {
+    display: none;
+
+    &:checked + .header__burger::before {
+        transform: rotate(45deg);
+        top: 0;
+    }
+
+    &:checked + .header__burger::after {
+        transform: rotate(-45deg);
+        top: 0;
+    }
+
+    &:checked + .header__burger {
+        background-color: transparent;
+    }
+}
+
+.header__burger {
+    display: inline-block;
+    position: relative;
+    width: 40px;
+    height: 5px;
+    background-color: $orange;
+    border-radius: 2px;
+
+
+    &::before, &::after {
+        content: '';
+        position: absolute;
+        width: 40px;
+        height: 5px;
+        background-color: $orange;
+        border-radius: 2px;
+    }
+
+    &::after {
+        top: 10px;
+        transition: all .3s ease;
+
+    }
+
+    &::before {
+        top: -10px;
+        transition: all .3s ease;
+
+    }
+
+    @media (min-width: 992px) {
+        display: none;
+    }
+}
