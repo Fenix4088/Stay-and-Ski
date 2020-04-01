@@ -1,9 +1,13 @@
 .header__burger-wrapper {
+    position: relative;
+    display: inline-block;
+    z-index: 11;
 
+    @media (min-width: 992px) {
+
+    }
 }
 
-.header__burger-lbl {
-}
 
 .header__burger-checkbox {
     display: none;

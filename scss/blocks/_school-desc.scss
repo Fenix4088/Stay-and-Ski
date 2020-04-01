@@ -1,17 +1,47 @@
 .school-desc {
-    padding: 200px 290px;
-    background-image: url(../img/school-desc/school-desc-bg.jpg);
+    background-image: url(../img/school-desc/school-desc-bg--mob.jpg);
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
+
+    @media (min-width: 992px) {
+        background-image: url(../img/school-desc/school-desc-bg.jpg);
+
+    }
+    
 }
 
 .school-desc__wrapper {
-    width: 65.39%;
+
+    @media (min-width: 768px) {
+
+    }
+    
+    @media (min-width: 992px) {
+        width: 62.39%;
+    }
 }
 
 .school-desc__title {
-    margin-bottom: 38px;
+    margin-bottom: 22px;
+    text-align: center;
+    color: #fff !important;
     @include section-title;
+
+    @media (min-width: 768px) {
+        margin-bottom: 30px;
+    }
+
+    @media (min-width: 992px) {
+        text-align: left;
+        color: rgb(51, 51, 51) !important;
+
+    }
+    
+    @media (min-width: 1200px) {
+        margin-bottom: 38px;
+    
+    }
+    
 }
 
 .school-desc__text {
@@ -19,38 +49,86 @@
 
     p {
         margin-bottom: 20px;
-        color: rgb(43, 43, 43);
+        color: #fff;
         line-height: 1.778;
 
         &:last-child {
             margin-bottom: 0;
         }
+
+        @media (min-width: 992px) {
+            color: rgb(43, 43, 43);
+
+        }
+        
     }
 }
 
 .school-desc__info {
+    padding: 0 10px;
     display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(255, 255, 255, .8);
 
+    @media (min-width: 768px) {
+        flex-flow: row nowrap;
+    }
+
+    @media (min-width: 992px) {
+        justify-content: space-between;
+        padding: 0;
+        background-color: transparent;
+
+    }
+    
 }
 
 .school-desc__info-item {
-    margin-right: 90px;
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
+
+    @media (min-width: 768px) {
+    }
+
+    @media (min-width: 992px) {
+        margin-right: 90px;
+    }
+    
 }
 
 .school-desc__info-statistic {
-    font-size: 64px;
+    font-size: 34px;
     font-family: "Catamaran";
     font-weight: 800;
     color: $orange;
-    align-self: start;
+
+    @media (min-width: 768px) {
+        font-size: 44px;
+    }
+    
+    @media (min-width: 1200px) {
+        font-size: 64px;
+        align-self: start;
+
+    }
+    
 }
 
 .school-desc__info-name {
-    font-size: 20px;
+    font-size: 14px;
     font-family: "Catamaran";
     font-weight: 600;
     text-transform: uppercase;
+
+    @media (min-width: 768px) {
+        font-size: 16px;
+    }
+
+    @media (min-width: 1200px) {
+        font-size: 20px;
+    
+    }
 }

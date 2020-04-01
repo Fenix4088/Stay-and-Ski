@@ -19,79 +19,114 @@
 </head>
 
 <body>
+    <!-- OVERLAY WHEN MOBILE NAVIGATION IS OPEN  -->
+    <div class="overlay"></div>
+    <!-- /OVERLAY WHEN MOBILE NAVIGATION IS OPEN  -->
+
     <header class="header" id="header">
     <div class="header__snow">
         <!-- TODO: SNOW ANIMATION -->
         <!-- id="snow-animation-container" -->
-            <div class="container">
-                <!-- NAVIGATION  -->
-                <nav class="header__navigation">
-                    <div class="header__navigation-logo">
-                        <a href="#">
-                            <img src="./img/header/logo.png" alt="Ski-Logo">
-                        </a>
+            
+                <div class="container">
+                    <div class="fixed-wrapper">
+                        <!-- NAVIGATION  -->
+                        <nav class="header__navigation">
+                            <div class="header__navigation-logo">
+                                <a href="#">
+                                    <img src="./img/header/logo.png" alt="Ski-Logo">
+                                </a>
+                            </div>
+            
+                            <!-- MOBILE MENUE ICON -->
+                            <div class="header__burger-wrapper">
+                                <label class="header__burger-lbl">
+                                    <input type="checkbox" class="header__burger-checkbox">
+                                    <span class="header__burger"></span>
+                                </label>
+                            </div>
+                            <!-- /MOBILE MENUE ICON -->
+            
+                            <div class="header__navigation-menue">
+                                <ul class="header__navigation-list">
+                                    <li class="header__navigation-item">
+                                        <a href="#header">Home</a>
+                                    </li>
+                                    <li class="header__navigation-item">
+                                        <a href="#offers">What We Offer</a>
+                                    </li>
+                                    <li class="header__navigation-item">
+                                        <a href="#gallery">Gallery</a>
+                                    </li>
+                                    <li class="header__navigation-item">
+                                        <a href="#about-us">About Us </a>
+                                    </li>
+                                    <li class="header__navigation-item">
+                                        <a href="#testimonials">Testimonials</a>
+                                    </li>
+                                    <li class="header__navigation-item">
+                                        <a href="#">Contact Us</a>
+                                    </li>
+                                </ul>
+                            </div>
+        
+                            <!-- MOBILE MENU NAVIGAYION  -->
+                            <!-- <div class="header__navigation-block header__navigation--mobile">
+                                <ul class="header__navigation-list">
+                                    <li class="header__navigation-item">
+                                        <a href="#header">Home</a>
+                                    </li>
+                                    <li class="header__navigation-item">
+                                        <a href="#offers">What We Offer</a>
+                                    </li>
+                                    <li class="header__navigation-item">
+                                        <a href="#gallery">Gallery</a>
+                                    </li>
+                                    <li class="header__navigation-item">
+                                        <a href="#about-us">About Us </a>
+                                    </li>
+                                    <li class="header__navigation-item">
+                                        <a href="#testimonials">Testimonials</a>
+                                    </li>
+                                    <li class="header__navigation-item">
+                                        <a href="#">Contact Us</a>
+                                    </li>
+                                </ul>
+                            </div> -->
+                            <!-- /MOBILE MENU NAVIGAYION  -->
+            
+            
+                        </nav>
                     </div>
-    
-                    <!-- MOBILE MENUE ICON -->
-                    <div class="header__burger-wrapper">
-                        <label class="header__burger-lbl">
-                            <input type="checkbox" class="header__burger-checkbox">
-                            <span class="header__burger"></span>
-                        </label>
-                    </div>
-                    <!-- /MOBILE MENUE ICON -->
-    
-                    <div class="header__navigation-menue">
-                        <ul class="header__navigation-list">
-                            <li class="header__navigation-item">
-                                <a href="#header">Home</a>
-                            </li>
-                            <li class="header__navigation-item">
-                                <a href="#offers">What We Offer</a>
-                            </li>
-                            <li class="header__navigation-item">
-                                <a href="#gallery">Gallery</a>
-                            </li>
-                            <li class="header__navigation-item">
-                                <a href="#about-us">About Us </a>
-                            </li>
-                            <li class="header__navigation-item">
-                                <a href="#testimonials">Testimonials</a>
-                            </li>
-                            <li class="header__navigation-item">
-                                <a href="#">Contact Us</a>
-                            </li>
-                        </ul>
-                    </div>
-    
-    
-                </nav>
-                <!-- SECONDARY TITLE  -->
-                <div class="sub-container">
-                    <div class="header__title">
-                        <h3 class="header__title-small">Ski & snowboard school</h3>
-                    </div>
-                </div>
-                <!-- MAIN TITLE  -->
-                <h1 class="header__title-big">stay <br> & <br> ski</h1>
-    
-                <div class="sub-container">
-                    <div class="header__desc">
-                        <p>
-                            The countdown to ski season has begun! So, it is high
-                            time to improve your skills to have maximum fun this winter
-                        </p>
-                        <div class="header__btn">
-                            <a href="#">online booking</a>
+                    <!-- SECONDARY TITLE  -->
+                    <div class="sub-container">
+                        <div class="header__title">
+                            <h3 class="header__title-small">Ski & snowboard school</h3>
                         </div>
                     </div>
+                    <!-- MAIN TITLE  -->
+                    <h1 class="header__title-big">stay <br> & <br> ski</h1>
+        
+                    <div class="sub-container">
+                        <div class="header__desc">
+                            <p>
+                                The countdown to ski season has begun! So, it is high
+                                time to improve your skills to have maximum fun this winter
+                            </p>
+                            <div class="header__btn">
+                                <a href="#">online booking</a>
+                            </div>
+                        </div>
+                    </div>
+        
                 </div>
-    
-            </div>
+            
             <!-- MOUNTAIN IMAGE  -->
             <div class="header__mountain-img">
                 <img src="./img/header/mountain.png" alt="Mountain">
             </div>
+
+
     </div>
     </header>
 
@@ -144,7 +179,7 @@
             </div>
         </section>
 
-        <section class="gallery none" id="gallery">
+        <section class="gallery" id="gallery">
             <div class="gallery__wrapper">
                 <div class="gallery__item-1">
                     <img src="./img/gallery/img-01.jpg" alt="Crew picture">
@@ -191,7 +226,7 @@
             </div>
         </section>
 
-        <section class="crew none" id="about-us">
+        <section class="crew" id="about-us">
             <div class="sub-container">
                 <h2 class="crew__title">meet our crew</h2>
                 <div class="crew__wrapper">
@@ -227,17 +262,19 @@
             </div>
         </section>
 
-        <section class="school-desc none">
+        <section class="school-desc">
             <div class="sub-container">
                 <div class="school-desc__wrapper">
-                    <h2 class="school-desc__title">mountain <br> snowboard school</h2>
-                    <div class="school-desc__text">
-                        <p>
-                            We’re not saying Snow Mountain has special powers, but a lot of magical things do happen here. The slopes on Bald and Dollar mountains enjoy a nearly lift line–free existence all winter long, not to mention a nearly cloud-free one.
-                        </p>
-                        <p>
-                            To those who wish to experience the best holiday time ever, we are excited to offer unlimited fun on the slopes, homey cosiness, wonderful views and snow activities. All this selection is presented in a great variety for any taste, age and skill. We are looking forward to seeing you in Snow Mountain ski resort at new season!
-                        </p>
+                    <div class="school-desc__text-wrapper">
+                        <h2 class="school-desc__title">mountain <br> snowboard school</h2>
+                        <div class="school-desc__text">
+                            <p>
+                                We’re not saying Snow Mountain has special powers, but a lot of magical things do happen here. The slopes on Bald and Dollar mountains enjoy a nearly lift line–free existence all winter long, not to mention a nearly cloud-free one.
+                            </p>
+                            <p>
+                                To those who wish to experience the best holiday time ever, we are excited to offer unlimited fun on the slopes, homey cosiness, wonderful views and snow activities. All this selection is presented in a great variety for any taste, age and skill. We are looking forward to seeing you in Snow Mountain ski resort at new season!
+                            </p>
+                        </div>
                     </div>
     
                     <div class="school-desc__info">
@@ -254,12 +291,12 @@
                             <div class="school-desc__info-name">reached tops</div>
                         </div>
                     </div>
-                </div>
+                </divclass="">
                 
             </div>
         </section>
 
-        <section class="testimonials none" id="testimonials">
+        <section class="testimonials" id="testimonials">
             <div class="sub-container">
                 <h2 class="testimonials__title">testimonials</h2>
                 <div class="testimonials__owl">
@@ -319,8 +356,8 @@
                             </div>
                         </div>
                     </div>
-                    <img src="./img/testimonials/quote-left.png" alt="quote left" class="testimonial__owl-quote testimonial__owl-quote--left">
-                    <img src="./img/testimonials/quote-right.png" alt="quote right" class="testimonial__owl-quote testimonial__owl-quote--right">
+                    <!-- <img src="./img/testimonials/quote-left.png" alt="quote left" class="testimonial__owl-quote testimonial__owl-quote--left">
+                    <img src="./img/testimonials/quote-right.png" alt="quote right" class="testimonial__owl-quote testimonial__owl-quote--right"> -->
                 </div>
             </div>
         </section>
