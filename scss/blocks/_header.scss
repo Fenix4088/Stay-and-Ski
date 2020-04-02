@@ -49,9 +49,9 @@
     right: 0;
     width: 100%;
     max-width: 320px;
-    height: 100vh;
+    height: 400px;
     background-color: rgba(74, 126, 174, .9);
-    transform: translateX(100%);
+    transform: translateY(-100%);
     transition: all .5s ease;
     z-index: 10;
 
@@ -66,14 +66,14 @@
         width: unset;
         height: unset;
         background-color: transparent;
-        transform: translateX(0%)
+        transform: translateY(100%)
 
     }
     
 }
 
 .header__navigation-menue.active {
-    transform: translateX(0%);
+    transform: translateY(0%);
 
 }
 
