@@ -72,7 +72,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .container {
-    border: 1px solid red;
     margin: 0 auto;
     padding: 0 15px;
     min-width: 290px;
@@ -89,7 +88,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .sub-container {
-    border: 1px solid blue;
     padding: 0 10px;
     margin: 0 auto;
     min-width: 240px;
@@ -157,8 +155,39 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
+.fixed-wrapper.nav-fixed > .header__navigation {
+    margin-bottom: 0;
+}
+
 .nav-fixed .header__navigation-menue > .header__navigation-list{
     background-color: transparent;
     z-index: 101;
+}
+
+
+// NAVIGATION MENU COMMON 
+
+.navigation-icons {
+    display: flex;
+
+    @media (min-width: 992px) {
+        display: none;
+    }
+}
+
+.navigation-icons-icon {
+    margin-right: 15px;
+
+    &:last-child {
+        margin-right: 0;
+    }
+
+    a {
+        color: $orange;
+        transition: all .3s ease;
+        &:hover {
+            font-size: 20px;
+        }
+    }
 }
   

@@ -25,9 +25,9 @@
 
 // NAVIGATION
 .header__navigation {
+    margin: 0 auto;
     margin-bottom: 35px;
     max-width: 1680px;
-    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -90,13 +90,19 @@
 }
 
 .header__navigation-item {
+    margin-bottom: 15px;
     margin-right: 45px;
     a {
         color: #fff;
         transition: all .2s ease-in;
         &:hover {
             color: $orange;
+            font-size: 20px;
         }
+    }
+
+    @media (min-width: 992px) {
+        margin-bottom: 0;
     }
 
 }
@@ -143,7 +149,7 @@
         margin-top: -76px;
         margin-right: 19px;
         color: rgba(254, 254, 254, 0.4);
-        font-size: 250px;
+        font-size: 200px;
         letter-spacing: -10px;
     }
 
@@ -200,6 +206,14 @@
     }
 }
 
-.header__btn a {
-   @include btn-orange;
+.header__btn {
+    margin-bottom: 30px;
+
+    a {
+        @include btn-orange;
+    }
+
+    @media (min-width: 1200px) {
+        margin-bottom: 0;
+    }
 }
