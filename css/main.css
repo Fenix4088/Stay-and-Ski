@@ -156,6 +156,10 @@ h1, h2, h3, h4, h5, h6 {
     .navigation-icons-icon a:hover {
       font-size: 20px; }
 
+#page-nav li.active > a {
+  color: #ff660d;
+  font-size: 20px; }
+
 .header {
   overflow: hidden;
   padding: 30px 0 0;
