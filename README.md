@@ -1,5 +1,5 @@
 # Stay and ski
-This is Landing page project. 
+Landing page project. 
 ### Technologies:  
 * HTML5
 * CSS(SCSS)
